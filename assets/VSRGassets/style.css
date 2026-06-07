@@ -19,7 +19,7 @@
 
 html, body {
 	min-height: 100vh;
-	min-width: 220vw;
+	min-width: 180vw;
 	box-shadow: 0 0 200px rgb(0, 0, 0) inset;
 }
 
@@ -34,6 +34,16 @@ tr {
 	vertical-align: top;
 }
 
+table {
+  background-color: rgba(255,255,255,0) !important;
+  border: 0px solid rgba(255,255,255,0) !important;
+  border-collapse: inherit !important;
+}
+
+td {
+  border-right: 0px solid rgba(255,255,255,0) !important;
+}
+
 .title {
 	border: 2px outset rgb(255, 255, 255);
 	background-color: rgb(231, 231, 231);
@@ -43,7 +53,9 @@ tr {
 	padding: .3vw;
 	box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.5);
 }
-
+.video-overlay {
+  position: fixed !important;
+}
 .friendInsideMe {
 	padding: 10px;
 	background-color: whitesmoke;
