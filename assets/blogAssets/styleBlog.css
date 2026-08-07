@@ -8,6 +8,7 @@ body {
     font-family: ADDSBP__;
     color: white;
     text-shadow: 5px 5px black;
+    font-size: 2rem;
     padding: 15px;
 }
 
@@ -17,3 +18,11 @@ hr {
     height: 30px;
     border: none;
 }
+
+.collapsible {
+  background: none;
+  font-family: inherit;
+  color: inherit;
+  border: none;
+  font-size: 1.5rem;
+};
