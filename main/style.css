@@ -669,10 +669,10 @@ hr {
 }
 
 #IMPORTANTuPDATE {
-  width: 25vw;
+  width: 15vw;
   left: 2vw;
   position: absolute;
-  top: 10vw;
+  top: 20rem;
   display: flex;
   z-index: 50;
   flex-direction: column;
@@ -684,6 +684,7 @@ hr {
 
 #IMPORTANTuPDATE > .text {
   line-height: 3rem !important;
+  font-size: .5rem !important;
 }
 
 #IMPORTANTuPDATE > .title {
